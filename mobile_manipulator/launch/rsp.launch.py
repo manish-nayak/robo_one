@@ -8,10 +8,8 @@ import xacro
 def generate_launch_description():
 
     # Specify the name of the package and path to xacro file within the package
-    pkg_name = 'ackermann_simplified'
-    file_subpath = 'urdf/em_3905.urdf.xacro'
-    #file_subpath = 'urdf/veh_model.urdf.xacro'
-    #file_subpath = 'urdf/differential/diff_ring.urdf'
+    pkg_name = 'mobile_manipulator'
+    file_subpath = 'kuka_iiwa/model.urdf'
 
     # Use xacro to process the file
     xacro_file = os.path.join(get_package_share_directory(pkg_name),file_subpath)

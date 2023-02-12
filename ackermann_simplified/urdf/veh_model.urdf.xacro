@@ -49,7 +49,7 @@ Copyright (c) 2022-2022 John Deere Pvt. Limited, India
   <xacro:property name="hex_hub_dist" value="0.5"/>
   <xacro:property name="axle_length" value="0.03"/>
   <xacro:property name="wheel_travel" value="0.1"/>
-  <xacro:property name="shock_z_offset" value="0.03"/>
+  <xacro:property name="shock_z_offset" value="0.06"/>
 
   <!-- shock_eff_limit is 2 * ((shock_stroke / 2) * shock_spring_constant) N.
        shock_stroke is 0.03 meters. shock_spring_constant, an approximation

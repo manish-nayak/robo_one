@@ -70,7 +70,7 @@ Copyright (c) 2022-2022 John Deere Pvt. Limited, India
   <joint name="left_front_shock" type="prismatic">
     <parent link="chassis"/>
     <child link="left_steering_link"/>
-    <origin xyz="0.3                    0.22                    0.020000000000000004"/>
+    <origin xyz="0.3                    0.22                    -0.009999999999999995"/>
     <axis xyz="0 0 -1"/>
     <limit effort="12" lower="-0.05" upper="0.05" velocity="1000"/>
   </joint>
@@ -126,7 +126,7 @@ Copyright (c) 2022-2022 John Deere Pvt. Limited, India
   <joint name="right_front_shock" type="prismatic">
     <parent link="chassis"/>
     <child link="right_steering_link"/>
-    <origin xyz="0.3                    -0.22                    0.020000000000000004"/>
+    <origin xyz="0.3                    -0.22                    -0.009999999999999995"/>
     <axis xyz="0 0 -1"/>
     <limit effort="12" lower="-0.05" upper="0.05" velocity="1000"/>
   </joint>
@@ -182,7 +182,7 @@ Copyright (c) 2022-2022 John Deere Pvt. Limited, India
   <joint name="left_rear_shock" type="prismatic">
     <parent link="chassis"/>
     <child link="left_rear_axle_carrier"/>
-    <origin xyz="-0.3                    0.22                    0.020000000000000004"/>
+    <origin xyz="-0.3                    0.22                    -0.009999999999999995"/>
     <axis xyz="0 0 -1"/>
     <limit effort="12" lower="-0.05" upper="0.05" velocity="1000"/>
   </joint>
@@ -226,7 +226,7 @@ Copyright (c) 2022-2022 John Deere Pvt. Limited, India
   <joint name="right_rear_shock" type="prismatic">
     <parent link="chassis"/>
     <child link="right_rear_axle_carrier"/>
-    <origin xyz="-0.3                    -0.22                    0.020000000000000004"/>
+    <origin xyz="-0.3                    -0.22                    -0.009999999999999995"/>
     <axis xyz="0 0 -1"/>
     <limit effort="12" lower="-0.05" upper="0.05" velocity="1000"/>
   </joint>
